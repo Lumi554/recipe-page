@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*Основной шрифт сайта*/
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(30, 54%, 90%); /*Eggshel */
+    color: hsl(30, 10%, 34%); /* Wenge Brown*/
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    font-weight: 400;/* обычная толщина*/
+}
+.recipe-card{
+    background-color: hsl(0, 0%, 100%); /* White*/
+    max-width: 736px;
+    padding:40px;
+    border-radius: 24px;
+}
+/* Картинка блюда*/
+.recipe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 32px;
+}
+/* Красивый шрифт с засечками для главных заголовков */
+
+h1, h2 {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+} 
+h2{
+    color:hsl(14, 45%, 36%);/* Красновато коричневый цвет*/
+    font-size: 28px;
+    margin-top:32px; /*Отступ СВЕРХУ от линии/блока*/
+    margin-bottom: 24px;/*Отступ СНИЗУ до списка*/
+}
+.prep-time{
+    background-color: hsl(330, 100%, 98%); /*Светло розовый фон*/
+    padding: 24px; /*Внутренний отступ со всех сторон*/
+    border-radius: 12px; /*Скругление углов*/
+    margin: 32px 0;/*Отступ сверху и снизу от блока*/
+}
+.prep-title{
+    color: hsl(332, 51%, 32%);/*Темно бордовый заголовок*/
+    font-size: 20px;
+    margin-bottom: 16px;/*Отступ от загловка до списка*/
+}
+hr{
+    border: none;
+    border-top: 1px solid hsl(30, 18%, 87%);/*Тонкая серая линия*/
+    margin:32px 0;
+}
+h1{
+    color:black
+}
+.nutrition-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top:16px;
+}
+.nutrition-table tr{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.nutrition-table tr:last-child{
+    border-bottom: none;
+}
+.nutrition-table td{
+    padding: 12px 32px;
+    color:hsl(30, 10%, 34%)
+}
+.nutrition-value{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
